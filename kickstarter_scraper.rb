@@ -2,12 +2,12 @@
 require 'nokogiri'
 require 'pry'
 # class KickStarter
-  def create_project_hash
+  #def create_project_hash
     # write your code here
     # This just opens a file and reads it into a variable
     html = File.read('fixtures/kickstarter.html')
     kickstarter = Nokogiri::HTML(html)
-  end
+  #end
 # end
     binding.pry
     create_project_hash
@@ -18,3 +18,5 @@ require 'pry'
 #Image Link
 #Location
 #Percent Funded
+
+#projects: kickstarter.css("li.project.grid_4")
