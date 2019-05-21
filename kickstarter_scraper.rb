@@ -6,8 +6,8 @@ def create_project_hash
   # This just opens a file and reads it into a variable
   html = File.read('fixtures/kickstarter.html')
   kickstarter = Nokogiri::HTML(html)
+    binding.pry
 end
-  binding.pry
 
 #Name and Author
 #create_project_hash.css(".project").first.css("h2").text
