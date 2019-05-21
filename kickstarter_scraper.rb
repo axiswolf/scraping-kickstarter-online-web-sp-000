@@ -1,7 +1,7 @@
 # require libraries/modules here
 require 'nokogiri'
 require 'pry'
-class kickstarter
+class Kickstarter
   def create_project_hash
     # write your code here
     # This just opens a file and reads it into a variable
