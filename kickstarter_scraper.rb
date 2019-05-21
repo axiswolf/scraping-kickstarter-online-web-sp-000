@@ -9,8 +9,8 @@ class KickStarter
     kickstarter = Nokogiri::HTML(html)
   end
 end
-    binding.pry
-    create_project_hash
+    #binding.pry
+    #create_project_hash
 #Name and Author
 #create_project_hash.css(".project").first.css("h2").text
 #Description
