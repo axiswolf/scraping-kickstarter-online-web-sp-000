@@ -10,7 +10,7 @@ class KickStarter
   end
 end
     binding.pry
-    #create_project_hash
+    create_project_hash
 #Name and Author
 #create_project_hash.css(".project").first.css("h2").text
 #Description
