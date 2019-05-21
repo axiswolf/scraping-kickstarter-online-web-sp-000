@@ -8,6 +8,7 @@ class kickstarter
     html = File.read('fixtures/kickstarter.html')
     kickstarter = Nokogiri::HTML(html)
   end
+end
     binding.pry
     create_project_hash
 #Name and Author
